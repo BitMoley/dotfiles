@@ -1,0 +1,10 @@
+font_size 13.0
+font_family JetBrainsMono Nerd Font
+bold_font JetBrainsMono Nerd Font
+italic_font JetBrainsMono Nerd Font
+
+
+# BEGIN_KITTY_THEME
+# Kibble
+include current-theme.conf
+# END_KITTY_THEME
