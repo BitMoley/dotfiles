@@ -17,6 +17,7 @@ gaps outer 3
 # Set Variables
 set $term kitty
 set $menu dmenu_run -b -fn 'JetBrains Mono-14'
+set $browser zen-browser
 
 # Keyboard Layout
 input * {
@@ -55,6 +56,9 @@ default_floating_border pixel 4
 # Run Applications
 bindsym $mod+Return exec $term
 bindsym $mod+Space exec $menu
+bindsym $mod+B exec $browser
+bindsym $mod+O exec obsidian
+bindsym $mod+S exec steam
 
 # Move your focus around
 bindsym $mod+$left focus left
