@@ -31,7 +31,7 @@ bindsym $mod+q kill
 bindsym $mod+Shift+c reload
 
 # Wallpaper
-output DP-2 mode 3840x2160@59.98Hz pos 0,0 bg ~/wallpapers/dark.png fill
+output DP-2 mode 3840x2160@59.98Hz pos 0,0 bg ~/wallpapers/night-drive.jpg fill
 
 # Volume Control
 bindsym $mod+ctrl+$up exec wpctl set-volume -l 1.4 @DEFAULT_AUDIO_SINK@ 5%+
